@@ -46,7 +46,7 @@ export default function HomeScreen() {
 
       {/* Button Section with Drop Shadow */}
       <Link href="/ask-question" asChild>
-        <TouchableOpacity className="flex-row bg-blue-100 py-4 px-4 rounded-lg items-center mb-3 shadow-md">
+        <TouchableOpacity className="flex-row bg-blue-100 py-4 px-4 rounded-lg items-center mb-3 ">
           <Image source={require("../../assets/question.png")} className="w-6 h-6 mr-2" />
           <View>
             <Text className="text-blue-600 text-lg">Ask Questions</Text>
